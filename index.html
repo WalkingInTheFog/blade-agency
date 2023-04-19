@@ -42,13 +42,233 @@
 
 <body class="page-body page-body--index">
 
+  <header class="main-header">
+
+    <nav class="main-nav">
+
+      <a class="main-logo">
+        <img class="main-logo__img" src="images/logo.svg" width="260" height="145" alt="лого блейд агенства">
+      </a>
+
+      <ul class="main-nav-list reset-list">
+
+        <li class="main-nav-list__item">
+          <a class="main-nav-list__link main-nav-list__link--active" href="#">ГЛАВНАЯ</a>
+        </li>
+
+        <li class="main-nav-list__item">
+          <a class="main-nav-list__link" href="#">УЧАСТНИКИ</a>
+        </li>
+
+        <li class="main-nav-list__item">
+          <a class="main-nav-list__link" href="#">ЖЮРИ</a>
+        </li>
+
+        <li class="main-nav-list__item">
+          <a class="main-nav-list__link" href="#">БИЛЕТЫ</a>
+        </li>
+
+        <li class="main-nav-list__item">
+          <a class="main-nav-list__link" href="#">КОНТАКТЫ</a>
+        </li>
+
+      </ul>
+
+      <div class="lang-select">
+
+        <button class="lang-select__btn" type="button">РУС</button>
+
+        <ul class="lang-select-list reset-list display-none">
+
+          <li class="lang-select-list__item lang-select-list__item--active">
+
+            <input type="radio" name="lang" id="rus" value="rus" checked="">
+
+            <label for="rus">
+
+              <img class="lang-select__img" src="images/icon_flag-ru.svg" alt="флаг России" width="27" height="18">
+
+              <span class="lang-select__desc">Рус</span>
+
+            </label>
+
+          </li>
+
+          <li class="lang-select-list__item">
+
+            <input type="radio" name="lang" id="us" value="us">
+
+            <label for="us">
+
+              <img class="lang-select__img" src="images/icon_flag-us.svg" alt="флаг США" width="27" height="18">
+
+              <span class="lang-select__desc">Англ</span>
+
+            </label>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="site-nav-indication">
+
+        <p class="site-nav-indication__counter">01 / 05</p>
+
+        <button class=" site-nav-indication__btn-left" type="button" aria-label="листать вверх">
+
+          <span class="visually-hidden">
+            &lt; </span>
+
+        </button>
+
+        <button class="site-nav-indication__btn-right" type="button" aria-label="листать вниз">
+
+          <span class="visually-hidden"> &gt; </span>
+
+        </button>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="lead">
+
+      <div class="lead__text">
+
+        <a href="#" class="lead__hash-tag">#bladefashion2019</a>
+
+        <h1 class="lead__title">Показ лучших молодых дизайнеров России</h1>
+
+        <ul class="lead__common-info">
+
+          <li class="lead__common-info-item lead__common-info-item--calendar">
+
+            <time datetime="2019-11-18T12:30">
+              <span>18 ноября</span> <br>
+              <span>12<sup>30</sup> – 20<sup>00</sup></span>
+            </time>
+
+          </li>
+
+          <li class="lead__common-info-item lead__common-info-item--location">
+
+            <p>Москва<br>
+              Лофт-центр &laquo;Эдем&raquo;</p>
+
+          </li>
+
+          <li class="lead__common-info-item lead__common-info-item--winner">
+
+            <p>Победитель едет <br> на показ Blade в Париж!</p>
+
+          </li>
+
+        </ul>
+
+        <a class="lead__btn-link" href="#">
+
+          <span>БРОНЬ БИЛЕТА</span>
+
+        </a>
+
+
+        <ul class="soc-list reset-list">
+
+          <li class="soc-list__item">
+
+            <a href="#" class="soc-list__link" aria-label="ссылка на профиль вконтакте">
+
+              <img class="soc-list__img" src="images/icon_vk.svg" alt="иконка вконтакте" width="44" height="44">
+
+            </a>
+
+          </li>
+
+          <li class="soc-list__item">
+
+            <a href="#" class="soc-list__link" aria-label="ссылка на профиль яндекс дзен">
+
+              <img class="soc-list__img" src="images/icon_zen.svg" alt="иконка яндекс дзен" width="44" height="44">
+
+            </a>
+
+          </li>
+
+          <li class="soc-list__item">
+
+            <a href="#" class="soc-list__link" aria-label="ссылка на канал телеграмм">
+
+              <img class="soc-list__img" src="images/icon_tg.svg" alt="иконка телеграмм" width="44" height="44">
+
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="lead__slider-wrapper">
+
+        <ul class="lead__slider">
+
+          <li class="lead__slider-item">
+
+            <img class="lead__slider-img" src="images/lead-banner-img.png" alt="ультра модный лук" width="839"
+              height="908">
+
+          </li>
+
+          <li class="lead__slider-item">
+
+            <img class="lead__slider-img" src="images/lead-banner-img.png" alt="ультра модный лук" width="839"
+              height="908">
+
+          </li>
+
+          <li class="lead__slider-item">
+
+            <img class="lead__slider-img" src="images/lead-banner-img.png" alt="ультра модный лук" width="839"
+              height="908">
+
+          </li>
+
+
+        </ul>
+
+        <div class="lead__clider-control">
+
+          <button type="button" aria-label="листать влево">
+            <span class="visually-hidden">
+              &lt; </span>
+          </button>
+
+          <button type="button" aria-label="листать вправо">
+            <span class="visually-hidden"> &gt; </span>
+          </button>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+  </main>
 
   <footer>
 
     <p>иконки взяты с <a href="https://icons8.ru/">icons8</a> </p>
 
   </footer>
-
 
   <script src="script.js"></script>
 
